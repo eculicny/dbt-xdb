@@ -187,7 +187,17 @@ Used in conjunction with generate_daily_time_series_from, this macro returns a t
 - stop_date the ending date of the series
 
 **Returns**:         A new column containing the generated series.
-    
+
+
+### [generate_uuid](../macros/generate_uuid.sql)
+**xdb.generate_uuid** (**type** _string='v4'_)
+
+Generates a UUID of the specified version. Currently only v4 UUIDs are supported.
+
+
+**Returns**: A new UUID typed as a string
+##### Supports: _Postgres, Snowflake_
+----
 
 ### [interval_to_timestamp](../macros/interval_to_timestamp.sql)
 **xdb.interval_to_timestamp** (**part** _string_, **val** _integer representing a unit of time_)
