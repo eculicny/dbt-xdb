@@ -182,7 +182,7 @@ Generates a UUID of the specified version. Currently only v4 UUIDs are supported
 
 
 **Returns**: A new UUID typed as a string
-##### Supports: _Postgres, Snowflake_
+##### Supports: _Postgres (requires uuid-ossp extension), Snowflake_
 ----
 
 
